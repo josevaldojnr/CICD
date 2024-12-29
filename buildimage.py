@@ -16,7 +16,7 @@ def getS3Client(key, secret, host, port):
         minio_client=s3(f'{host}:{port}',
         access_key=key,
         secret_key=secret,
-        secure=False)
+        secure=True)
         print("Minio Client Created")
         return minio_client
         
