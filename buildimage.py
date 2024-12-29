@@ -10,7 +10,7 @@ ACCESS_KEY=os.getenv("ACCESS_KEY")
 SECRET_KEY=os.getenv("SECRET_KEY")
 HOST=os.getenv("MINIO_HOST")
 PORT=os.getenv("MINIO_PORT")
-
+#testing cicd
 def getS3Client(key, secret, host, port):
     try:
         minio_client=s3(f'{host}:{port}',
