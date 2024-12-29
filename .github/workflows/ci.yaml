@@ -1,10 +1,10 @@
 name: CI/CD Pipeline
 
-on push:
-  branches:
-    - main
-    - master
-    - acceptance
+on: 
+  push:
+    branches:
+      - main
+      - acceptance
 
 jobs:
   build:
