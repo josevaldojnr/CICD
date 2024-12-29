@@ -25,7 +25,7 @@ jobs:
       
       - name: Upload Branch - MinioS3
         env:
-          MINIO_HOST: "192.168.27.11"
+          MINIO_HOST: "https://6693-148-222-192-72.ngrok-free.app"
           MINIO_PORT: "9000"
           ACCESS_KEY: "LtJeM4dfwVxTQMW9aWCB"
           SECRET_KEY: "Is2mlxK6LNSCyGLoDUGW7vYPTu3idgQQKWuMTmke"
